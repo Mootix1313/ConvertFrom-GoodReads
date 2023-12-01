@@ -1,0 +1,194 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">PoShLog</S>
+      <Version N="Version">2.1.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">PoShLog is powershell logging module. _x000D__x000A_PoShLog allows you to log structured event data into console, file and much more places easily._x000D__x000A_It is wrapper of great C# logging library Serilog - https://serilog.net/._x000D__x000A__x000D__x000A_For documentation check PoShLog wiki - https://github.com/PoShLog/PoShLog/wiki</S>
+      <S N="Author">Tomas Bouda</S>
+      <S N="CompanyName">TomasBouda</S>
+      <S N="Copyright">(c) 2019 Tomas Bouda. All rights reserved.</S>
+      <DT N="PublishedDate">2020-07-13T12:44:35-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2023-11-30T16:15:05.560241-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/PoShLog/PoShLog/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/PoShLog/PoShLog</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/PoShLog/PoShLog/master/images/icons/poshlog-icon-256.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Log</S>
+          <S>Logging</S>
+          <S>Serilog</S>
+          <S>File</S>
+          <S>filelog</S>
+          <S>logfile</S>
+          <S>error-log</S>
+          <S>console</S>
+          <S>event</S>
+          <S>serilog-sink</S>
+          <S>serilog-for-powershell</S>
+          <S>wrapper</S>
+          <S>sinks</S>
+          <S>PSEdition_Desktop</S>
+          <S>PSEdition_Core</S>
+          <S>Windows</S>
+          <S>Linux</S>
+          <S>MacOS</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Write-DebugLog</S>
+                <S>Write-ErrorLog</S>
+                <S>Write-FatalLog</S>
+                <S>Write-InfoLog</S>
+                <S>Write-InformationLog</S>
+                <S>Write-VerboseLog</S>
+                <S>Write-WarningLog</S>
+                <S>Close-Logger</S>
+                <S>New-LevelSwitch</S>
+                <S>New-Logger</S>
+                <S>Set-LevelSwitch</S>
+                <S>Set-Logger</S>
+                <S>Set-MinimumLevel</S>
+                <S>Start-Logger</S>
+                <S>Add-EnrichFromLogContext</S>
+                <S>Add-EnrichWithErrorRecord</S>
+                <S>Add-EnrichWithProperty</S>
+                <S>Get-JsonFormatter</S>
+                <S>Convert-LogFunctions</S>
+                <S>Add-SinkConsole</S>
+                <S>Add-SinkFile</S>
+                <S>Add-SinkPowerShell</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Write-DebugLog</S>
+                <S>Write-ErrorLog</S>
+                <S>Write-FatalLog</S>
+                <S>Write-InfoLog</S>
+                <S>Write-InformationLog</S>
+                <S>Write-VerboseLog</S>
+                <S>Write-WarningLog</S>
+                <S>Close-Logger</S>
+                <S>New-LevelSwitch</S>
+                <S>New-Logger</S>
+                <S>Set-LevelSwitch</S>
+                <S>Set-Logger</S>
+                <S>Set-MinimumLevel</S>
+                <S>Start-Logger</S>
+                <S>Add-EnrichFromLogContext</S>
+                <S>Add-EnrichWithErrorRecord</S>
+                <S>Add-EnrichWithProperty</S>
+                <S>Get-JsonFormatter</S>
+                <S>Convert-LogFunctions</S>
+                <S>Add-SinkConsole</S>
+                <S>Add-SinkFile</S>
+                <S>Add-SinkPowerShell</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">https://github.com/PoShLog/PoShLog/blob/master/releaseNotes/v2.1.1.md</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2019 Tomas Bouda. All rights reserved.</S>
+          <S N="description">PoShLog is powershell logging module. _x000D__x000A_PoShLog allows you to log structured event data into console, file and much more places easily._x000D__x000A_It is wrapper of great C# logging library Serilog - https://serilog.net/._x000D__x000A__x000D__x000A_For documentation check PoShLog wiki - https://github.com/PoShLog/PoShLog/wiki</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">https://github.com/PoShLog/PoShLog/blob/master/releaseNotes/v2.1.1.md</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">206790</S>
+          <S N="downloadCount">207795</S>
+          <S N="packageSize">128498</S>
+          <S N="published">7/13/2020 12:44:35 PM -04:00</S>
+          <S N="created">7/13/2020 12:44:35 PM -04:00</S>
+          <S N="lastUpdated">11/30/2023 9:05:12 PM -05:00</S>
+          <S N="tags">Log Logging Serilog File filelog logfile error-log console event serilog-sink serilog-for-powershell wrapper sinks PSEdition_Desktop PSEdition_Core Windows Linux MacOS PSModule PSFunction_Write-DebugLog PSCommand_Write-DebugLog PSFunction_Write-ErrorLog PSCommand_Write-ErrorLog PSFunction_Write-FatalLog PSCommand_Write-FatalLog PSFunction_Write-InfoLog PSCommand_Write-InfoLog PSFunction_Write-InformationLog PSCommand_Write-InformationLog PSFunction_Write-VerboseLog PSCommand_Write-VerboseLog PSFunction_Write-WarningLog PSCommand_Write-WarningLog PSFunction_Close-Logger PSCommand_Close-Logger PSFunction_New-LevelSwitch PSCommand_New-LevelSwitch PSFunction_New-Logger PSCommand_New-Logger PSFunction_Set-LevelSwitch PSCommand_Set-LevelSwitch PSFunction_Set-Logger PSCommand_Set-Logger PSFunction_Set-MinimumLevel PSCommand_Set-MinimumLevel PSFunction_Start-Logger PSCommand_Start-Logger PSFunction_Add-EnrichFromLogContext PSCommand_Add-EnrichFromLogContext PSFunction_Add-EnrichWithErrorRecord PSCommand_Add-EnrichWithErrorRecord PSFunction_Add-EnrichWithProperty PSCommand_Add-EnrichWithProperty PSFunction_Get-JsonFormatter PSCommand_Get-JsonFormatter PSFunction_Convert-LogFunctions PSCommand_Convert-LogFunctions PSFunction_Add-SinkConsole PSCommand_Add-SinkConsole PSFunction_Add-SinkFile PSCommand_Add-SinkFile PSFunction_Add-SinkPowerShell PSCommand_Add-SinkPowerShell PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-11-30T21:05:12Z</S>
+          <S N="NormalizedVersion">2.1.1</S>
+          <S N="Authors">Tomas Bouda</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">PoShLog.nuspec|PoShLog.psd1|PoShLog.psm1|README.md|functions\Write-DebugLog.ps1|functions\Write-ErrorLog.ps1|functions\Write-FatalLog.ps1|functions\Write-InfoLog.ps1|functions\Write-InformationLog.ps1|functions\Write-VerboseLog.ps1|functions\Write-WarningLog.ps1|functions\core\Close-Logger.ps1|functions\core\New-LevelSwitch.ps1|functions\core\New-Logger.ps1|functions\core\Set-LevelSwitch.ps1|functions\core\Set-Logger.ps1|functions\core\Set-MinimumLevel.ps1|functions\core\Start-Logger.ps1|functions\enrichers\Add-EnrichFromLogContext.ps1|functions\enrichers\Add-EnrichWithErrorRecord.ps1|functions\enrichers\Add-EnrichWithProperty.ps1|functions\formatters\Get-JsonFormatter.ps1|functions\helpers\Convert-LogFunctions.ps1|functions\internal\Add-PackageTypes.ps1|functions\internal\Get-FormattedMessage.ps1|functions\internal\Set-LogLevelToPreference.ps1|functions\internal\Test-Logger.ps1|functions\internal\Test-PsCore.ps1|functions\internal\Write\Write-Log.ps1|functions\internal\Write\Write-SinkPowerShell.ps1|functions\sinks\Add-SinkConsole.ps1|functions\sinks\Add-SinkFile.ps1|functions\sinks\Add-SinkPowerShell.ps1|lib\PoShLog.Core.dll|lib\Serilog.dll|lib\Serilog.Sinks.Console.dll|lib\Serilog.Sinks.File.dll|lib\System.IO.FileSystem.Primitives.dll</S>
+          <S N="GUID">6eabf344-4f00-4cc0-95d4-d3bef503e165</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="CompanyName">Tomas Bouda</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">/Users/rachelgully/.local/share/powershell/Modules/PoShLog/2.1.1</S>
+    </MS>
+  </Obj>
+</Objs>
