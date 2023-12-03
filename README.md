@@ -108,7 +108,9 @@ ConvertFrom-GoodReads `
 
 **Note:** running this way should not produce output to the Host.
 
-`PS> ConvertFrom-GoodReads "path\to\goodreads_library_export.csv"`
+```powershell
+PS> ConvertFrom-GoodReads "path\to\goodreads_library_export.csv"`
+```
 
 #### EXAMPLE 2: Begin conversion of goodreads library export, save output to specified location
 
