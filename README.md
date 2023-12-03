@@ -1,6 +1,6 @@
 # ConvertFrom-GoodReads
 
-A powershell module to automate the conversion of a Goodreads library export file into individual markdown files, for each book, to use within an Obsidian vault.
+A powershell module to automate the conversion of a Goodreads library export file into individual markdown files, for each book, to use within an Obsidian vault. Inspired by [jag3773's gist](https://gist.github.com/jag3773/c65afd53944815efe495dae798327021).
 
 ---
 
