@@ -1,0 +1,427 @@
+---
+book-categories:
+- Bibliography
+- British and irish drama (dramatic works by one author)
+- English Children's plays
+- Classical Literature
+- Conflicto entre generaciones
+- Conflict of generations
+- courtship
+- Criticism and interpretation
+- Drama
+- Drama inglés
+- Dramatic production
+- Enemistad mortal
+- English drama (collections)
+- early modern and elizabethan
+- 1500-1600
+- English literature
+- English literature
+- study and teaching
+- English Love stories
+- English Young adult drama
+- Families
+- Fiction
+- History and criticism
+- Juvenile drama
+- Juvenile literature
+- Juventud
+- Language and linguistics
+- Literature
+- Love-Romance-Fiction
+- Love in adolescence
+- Man-woman relationships
+- Married people
+- open_syllabus_project
+- Performing Arts
+- Plays
+- Quartos
+- Reading Level-Grade 9
+- Reading Level-Grade 10
+- Reading Level-Grade 11
+- Reading Level-Grade 12
+- Shakespeare
+- Sources
+- Specimens
+- Stage history
+- Study guides
+- Suicide
+- Suspense-Fiction
+- Teatro
+- Tragedias
+- Tragedy
+- Vendetta
+- Youth
+- Shakespeare
+- william
+- 1564-1616
+- Shakespeare
+- william
+- 1564-1616
+- romeo and juliet
+- Shakespeare
+- william
+- 1564-1616
+- juvenile literature
+- Shakespeare
+- william
+- 1564-1616
+- criticism
+- textual
+- Shakespeare
+- william
+- 1564-1616
+- outlines
+- syllabi
+- etc.
+- Shakespeare
+- william
+- 1564-1616
+- dramatic production
+- Shakespeare
+- william
+- 1564-1616
+- stage history
+- Shakespeare
+- william
+- 1564-1616
+- criticism and interpretation
+- Drama
+- british and irish
+- Shakespeare
+- william
+- 1564-1616
+- adaptations
+- Critique et interprétation
+- Romeo and Juliet (Shakespeare
+- William)
+- Romeo (Fictitious character)
+- Juliet (Fictitious character)
+- English drama
+- Love
+- Adaptations
+- Comics & graphic novels
+- literary
+- Drama
+- collections
+- Translations
+- Tragedies
+- Man-woman relationship
+- Spanish language
+- Motion picture plays
+- Romeo and Juliet
+- Traducciones al español
+- 18.05 English literature
+- Examinations
+- Fiction
+- general
+- Vendetta -- Drama
+- Youth -- Drama
+- Verona (Italy) -- Drama
+- Juliet (Fictitious character) -- Drama
+- Romeo (Fictitious character) -- Drama
+- Conflict of generations -- Drama
+- English drama (Tragedy)
+- Translations into Spanish
+- Early modern and Elizabethan
+- Teatro inglés (Tragedia)
+- Literatura inglesa
+- Theater
+- Aufführung
+- Geschichte
+- Drama (dramatic works by one author)
+- Caricatures and cartoons
+- Cartoons and comics
+- Caricatures et dessins humoristiques
+- Children's plays
+- Translations into Tibetan
+- Translations into German
+- Literature and society
+- History
+- romeo and juliet
+gbook-url: https://www.googleapis.com/books/v1/volumes/s91NGS-aG7gC
+tags: log/book
+year-published: "2002"
+openlib-url: https://openlibrary.org/works/OL362427W
+thumbnail: http://books.google.com/books/content?id=s91NGS-aG7gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+publisheddate: "2000"
+bookshelves-with-positions:
+- ""
+date-read: ""
+average-rating: "3.74"
+industryidentifiers:
+  ISBN_13: "9780140714845"
+  ISBN_10: "0140714847"
+book-cover-url: https://covers.openlibrary.org/b/id/8257991-M.jpg
+description: Presents Shakespeare's tragic tale of star-crossed lovers and feuding families.
+book-tags: read
+publisher: Washington Square Press
+cssClasses:
+- wide-view
+- wide-table
+lcc:
+- PR-2831.00000000.A2 C29 2003
+- PR-2753.00000000 F8
+- PR-2831.00000000.A1 2010
+- PR-2831.00000000.A1 1990
+- PR-2794.00000000.S6 N47 1998
+- PR-2831.00000000 A2 D3 1965
+- PR-2831.00000000.A2 F7
+- PR-2888.00000000.L6 ser. 2, no. 6
+- PR-2877.00000000.L5 v. 8
+- PR-2831.00000000.A2G55 2008
+- PR-2831.00000000.A2 S6
+- PR-2753.00000000 M84 1888 v.5
+- PR-2831.00000000.A1
+- PR-2831.00000000.A2M36 2016
+- PR-2831.00000000.A2S58 2016
+- PR-2831.00000000.A2 A53 1993
+- PR-2831.00000000.A2 S7
+- PR-2831.00000000.A2 H8 1968
+- PR-2790.00000000.R6 M3
+- PR-2831.00000000.A1 1993
+- PR-2831.00000000.A2 K5 1966
+- PR-2831.00000000.A2 V66 1983b
+- PR-2831.00000000.A1 2001
+- PR-2831.00000000.A2 R66 1984
+- PR-2832.00000000.A2 M64 1992
+- PR-2831.00000000.A2H66 1975
+- PR-1241.00000000.W4 Series no. 1 S-59
+- PR-2831.00000000.A2 .L64 2002
+- PR-2831.00000000.A2 T78 1974
+- PR-2831.00000000 A2 R58 1895
+- PR-2796.00000000.T62 R64 2003
+- PR-2754.00000000.N5 vol. 26
+- PR-2794.00000000.R7 C6 1987
+- PR-2831.00000000 A2 H8 1916
+- PR-2779.00000000.L35 1958
+- PR-2831.00000000.A1 2006b
+- PR-2878.00000000.R6 D3 1983
+- PR-2831.00000000.A2P45 2011
+- PR-2831.00000000.A2 C48 1987
+- PR-2831.00000000.A1 1794
+- PR-2751.00000000.A1531 1997
+- PR-2831.00000000.A2 M26 2005
+- PR-2831.00000000.A2 P37 2010
+- PR-2888.00000000
+- PR-2831.00000000.A25 2003
+- PR-2831.00000000.A2 H27 1995
+- PR-2878.00000000.R6 D3
+- PR-2831.00000000.A2T78 1974
+- PR-2831.00000000.A2 S5
+- PR-2831.00000000.A2 H37 1961
+- PR-2831.00000000.A2 H59 2016
+- PR-2831.00000000.A2H27 1995
+- PR-2831.00000000.A2 B4 1985
+- PR-2831.00000000.A2 I78 1882
+- PR-2831.00000000 A2 D8 1946
+- PR-2831.00000000.A2 Q3 1959
+- PR-2892.00000000.R66 2005eb
+- PR-2831.00000000.A2C25 2003
+- PR-2831.00000000.A2 J4
+- PR-2831.00000000.A1 1994
+- PR-2831.00000000.A2 Y38 1998
+- PR-2831.00000000.A2 A44 2004
+- PR-2831.00000000.A2M3 1990
+- PR-2831.00000000.A2 B65 2012
+- PR-2831.00000000.A2 H3 1971
+- PR-2750.00000000.C5 no. 25
+- PR-2794.00000000.R75 V3 2016
+- PR-2831.00000000.A2 S63
+- PR-2750.00000000.B31 1995
+- PR-2831.00000000 A2 F8 1963
+- PR-2794.00000000.R7 C3 2012
+- PR-2825.00000000.A2 B72 1998
+- PR-2831.00000000.R68 2013
+- PR-2831.00000000.A2G49 1980
+- PR-2831.00000000.A2 H3 1912a
+- PR-2831.00000000 A2 B6
+- PR-2831.00000000.A2 H27 2008
+- PR-2831.00000000.A2 M36 2017
+- PR-2831.00000000 A2 D3
+- PR-2831.00000000 A2 D6
+- PR-2831.00000000.A2 B7
+- PR-2831.00000000.A2H59 2000
+- PR-2831.00000000.A25 1995
+- PB-0013.00000000.S6 vol.14, no.3-4
+- PR-2831.00000000.A2B43 1988
+- PR-2831.00000000.A2 K5 1966a
+- PR-2831.00000000.A2 G55 2001
+- PR-0000.00000000
+- PR-2825.00000000.A2 K5 1992
+- PR-2831.00000000.A2 R5 1935
+- PR-2831.00000000.A2 C45
+- PB-0013.00000000.S6 vol. 14 no. 3-4
+- PR-2831.00000000.A2 C25 2003
+- PR-2831.00000000.A2 E94 2003
+- PR-2831.00000000.A2 G5
+- PR-2831.00000000.A2P37 2010
+- PR-2831.00000000.A2 H59 2000
+- PR-2796.00000000.J32 R665 1951
+- PR-2831.00000000 A2 W54
+- PR-2782.00000000.R6 S3
+- PR-2779.00000000.R7 B6
+- PR-2831.00000000.A2 H3
+- PR-2750.00000000 B31 1886
+- PR-2831.00000000.A2 L64 2002
+- PR-2831.00000000.A2 M3 1990
+- PR-2831.00000000.A2H64 1954 ROBA
+- PR-2831.00000000.A2G55 2001
+- PR-2831.00000000.A2 N5 1914
+- PR-2831.00000000.A2 G55 2005
+- PR-2831.00000000.A2H64 1954
+- PR-2831.00000000.A2 G55 2008
+- PR-2831.00000000.A2 P45 2011
+- PR-2750.00000000 B31 1887
+- PR-2796.00000000.J32 R665 1964
+- PR-2782.00000000.R6 S34
+- PR-2831.00000000.A2L48 2000
+- PQ-0035.00000000 P491 122
+- PR-2753.00000000.P6 vol. 26
+- PR-2831.00000000.A25 1999
+- PR-2831.00000000.A2 G54 1994
+- PR-2831.00000000.A2 H64
+- PR-2878.00000000.R6 R34 2004
+- PR-2831.00000000.A2 F58 2013
+- PR-2779.00000000.R66F57 2014
+- PR-2831.00000000.A2 R3 1900z
+- PR-2831.00000000.A2 D63 2009
+- PR-2831.00000000.A2 T8
+- PR-2831.00000000.A1 2006
+- PR-2831.00000000.A2 G6 1901
+- PR-2831.00000000.A2 K55 2008
+- PR-2831.00000000.A2 S3
+- PN-1621.00000000.T575 En 1516-1641
+- PR-2794.00000000 R7 M25 1939
+- PR-2831.00000000.A25 1999b
+- PR-2786.00000000.R5 P3 1944b
+- PR-2831.00000000.A1 2007
+- PR-2831.00000000.A2K55 2008
+- PR-2831.00000000.A25 1998
+- PR-2831.00000000 A2 D4 1916
+- PR-2831.00000000 A2 R6 1907
+- PR-2796.00000000.A7 R63
+- PR-2831.00000000.A2 S44 2010
+- PR-2780.00000000.S25 vol. 2
+- PR-2831.00000000.A2 W4
+- PR-2831.00000000.A2 Y6 1972
+- PR-2831.00000000.A25 1992
+- PR-2794.00000000.R6 E35 2002b
+- PR-2831.00000000.A2 W7
+- PR-2831.00000000.A2 S44 1993
+- PR-2831.00000000.A2 L48 2000
+- PR-2831.00000000.A2 F55 1994b
+- PR-2831.00000000.A2 H8 1916
+- PR-2831.00000000.A2 L3
+- PR-2831.00000000.A2 W53
+- PR-2831.00000000.A2 V6 1983
+- PR-2831.00000000.A2 W54 1969
+- PR-2750.00000000 C5 No. 26
+- PR-2831.00000000.A2 K5
+- PR-2831.00000000.A2A53 1993
+- PR-2831.00000000.A2 H66
+- PR-2831.00000000.A1 2018
+- PR-2831.00000000.A2 G6 1896
+- PR-2831.00000000.A2 W3
+- PR-2831.00000000.A2 .M69 2011
+- PR-2831.00000000.A2 B33 2009
+- PR-2831.00000000.A2 A45 1900
+- PR-2831.00000000.A2 M68 2004
+- PR-2831.00000000.A1 1599
+- PN-0035.00000000.W65 no. 19
+- PR-2794.00000000.R7 M3
+- PR-2831.00000000.A2 E76 2007
+- PR-2831.00000000.A2 R6 1879
+- PR-2831.00000000.A2 G49 1980
+- PR-2831.00000000.A25 2002
+- PR-2831.00000000.A2 D8
+- PR-2831.00000000.A2 .D47 2009
+- PR-2831.00000000 A2 N4
+- PR-2831.00000000.A2M26 2005
+- PR-2831.00000000.A2 M69 1992
+- PN-6728.00000000
+- PR-2750.00000000.B31 2000
+- PR-2779.00000000.R7 D82 1900z
+- PR-2750.00000000.C5 no.26
+- PR-2831.00000000.A2 E94 1984
+- PR-2831.00000000.A2 D4
+- PR-2831.00000000.A2 R6 1907
+- PR-2831.00000000.A2 D8 1918
+- PR-2750.00000000
+- PR-2831.00000000.A25 1986
+- PR-2831.00000000.A2 D54 2012
+- PR-2831.00000000.A2
+- PR-2831.00000000
+- PR-2831.00000000.A2 A4
+- PR-2831.00000000.A2 C6 1972
+- PR-2831.00000000.A2H27 2008
+- PR-2831.00000000.A2 B43 1988
+- PR-2831.00000000.A2 R6 1904
+- PR-2831.00000000.A1 2013
+- PR-2831.00000000.A1 2009
+- PR-2750.00000000 B31 1886A
+- PR-2831.00000000.A2 W35 2012
+- PR-2750.00000000 B31 1874
+- PR-2878.00000000.R6R34 2004
+- PR-2888.00000000.L6 ser. 2 no. 4
+- PR-2831.00000000.A2 B38 2009
+- PR-2831.00000000.A25 1985
+- PR-2831.00000000.A2 N5 1920
+- PR-2751.00000000.A1531 1998
+- PR-2831.00000000.A2 W54
+- PR-2795.00000000.G8 R67 1978
+- PR-2831.00000000.A2 Y38 1985
+- PR-2878.00000000.R66.H88 2013
+- PR-2831.00000000.A1 1874
+- PR-2750.00000000.B31 1949
+- PR-2831.00000000.A2E94 2003
+- PR-2831.00000000.A2 F8
+- PR-2831.00000000.A2 F8 1968
+- PR-2831.00000000.A2H3 1971
+- PR-2831.00000000.A2R66 1984
+- PR-2831.00000000.A2 H66 1975
+- PE-1128.00000000.A2 R66 2008
+- PR-2794.00000000.R66 2000zeb
+- PR-2831.00000000.A23 1978
+- PR-2831.00000000.A1 2014
+- PR-2831.00000000.A25 2005
+- PR-2750.00000000.C5 no.36
+- PR-2831.00000000.A1 1914
+- PR-2753.00000000.A73 v.29 1927
+- PR-2831.00000000.A2 D4 1985
+- PR-2831.00000000.A2 M38 2017
+- PR-2831.00000000.A2 L48 2008
+- PR-2831.00000000.A2 D47 2009
+- PR-2831.00000000.A2 V66 1983
+date-added: 2010-10-22
+book-title: Romeo and Juliet
+read-count: "1"
+exclusive-shelf: read
+original-publication-year: "1597"
+my-rating: "3"
+number-of-pages: "281"
+book-author: William Shakespeare
+additional-authors:
+- ""
+---
+
+```dataview
+TABLE WITHOUT ID
+("![]("+book-cover-url+")") as "Cover",
+book-title as "Title",
+book-author as "Author",
+book-categories as "Categories"
+WHERE file = this.file
+```
+---
+```dataview
+TABLE WITHOUT ID
+book-tags as "Status",
+avg-goodreads-rating as "Avg Rating",
+my-rating as "My Rating"
+WHERE file = this.file
+```
+---
+## Notes
+
+
