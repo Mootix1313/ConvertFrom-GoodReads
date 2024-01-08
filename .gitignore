@@ -1,2 +1,9 @@
-
+.vscode/*
 .DS_Store
+Notes.md
+ConvertFrom-Goodreads_*.log
+Example/Logs
+Example/Reading_bkup
+Example/reset-session.ps1
+Example/tests-experiments.psm1
+Example/object_references

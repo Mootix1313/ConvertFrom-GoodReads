@@ -1,0 +1,44 @@
+<?xml-model href="https://raw.githubusercontent.com/PowerShell/PowerShell/master/src/Schemas/Types.xsd" encoding="utf-8"?>
+<Types>
+  <Type>
+    <Name>ConvertFromGoodReads.BookQuery</Name>
+    <Members>
+      <NoteProperty>
+        <Name>qtype</Name>
+        <Value>''</Value>
+        <TypeName>System.String</TypeName>
+      </NoteProperty>
+      <NoteProperty>
+        <Name>gbquery</Name>
+        <Value>''</Value>
+        <TypeName>System.String</TypeName>
+      </NoteProperty>
+      <NoteProperty>
+        <Name>olquery</Name>
+        <Value>''</Value>
+        <TypeName>System.String</TypeName>
+      </NoteProperty>
+      <NoteProperty>
+        <Name>results</Name>
+        <Value>
+          $results=@{
+          gb='';
+          ol=''}
+        </Value>
+        <TypeName>pscustomobject</TypeName>
+      </NoteProperty>
+      <AliasProperty>
+        <Name>OpenlibraryQuery</Name>
+        <ReferencedMemberName>olquery</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>GoogleBooksQuery</Name>
+        <ReferencedMemberName>gbquery</ReferencedMemberName>
+      </AliasProperty>
+      <AliasProperty>
+        <Name>QueryType</Name>
+        <ReferencedMemberName>qtype</ReferencedMemberName>
+      </AliasProperty>
+    </Members>
+  </Type>
+</Types>

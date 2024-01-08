@@ -1,0 +1,26 @@
+<?xml-model href="https://raw.githubusercontent.com/PowerShell/PowerShell/master/src/Schemas/Types.xsd" encoding="utf-8"?>
+<Types>
+  <Type>
+    <Name>ConvertFromGoodReads.BookLog</Name>
+    <Members>
+      <NoteProperty>
+        <Name>metadata</Name>
+        <Value>''</Value>
+      </NoteProperty>
+      <NoteProperty>
+        <Name>query_items</Name>
+        <Value>''</Value>
+      </NoteProperty>
+      <NoteProperty>
+        <Name>logfilename</Name>
+        <Value>''</Value>
+        <TypeName>System.String</TypeName>
+      </NoteProperty>
+      <NoteProperty>
+        <Name>raw_log</Name>
+        <Value>''</Value>
+        <TypeName>System.String</TypeName>
+      </NoteProperty>
+    </Members>
+  </Type>
+</Types>

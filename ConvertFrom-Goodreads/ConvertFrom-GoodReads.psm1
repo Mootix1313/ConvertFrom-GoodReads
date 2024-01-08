@@ -139,68 +139,120 @@
   [23:04:40 INF] [00.41% Imported] Created booklog object for 'The Wicked + The Divine Deluxe Edition: Year Three'
             ...
 #>
+Using namespace System.IO
+Using namespace System.Collections
+using module ./Types/ConvertFromGoodReads.Types.psm1
+
 function ConvertFrom-GoodReads{
-  [CmdletBinding()]
+  [CmdletBinding(DefaultParameterSetName='default')]
   param(
+    # Input file path
     [string]
-    [Parameter(Mandatory=$true)]
-    [ValidateScript({ Test-Path $_ })]
+    [Parameter(ParameterSetName='default')]
+    [Parameter(ParameterSetName='indicies')]
+    [ValidateScript({Test-Path -LiteralPath $_ -PathType Leaf})]
     $goodreads_filepath,
+
+    # Output folder path
     [string]
-    [ValidateScript({ Test-Path $_ })]
+    [ValidateScript({Test-Path -LiteralPath $_ -PathType Container})]
     $output_filepath = ".",
+
+    # Specify the bounds of processing (optional)
     [int32]
+    [Parameter(ParameterSetName='indicies')]
     $starting_index=0,
-    [switch]
-    $logging
+    [int32]
+    [Parameter(ParameterSetName='indicies')]
+    $stopping_index=-1,
+
+    # Provide object containing preimported data
+    [pscustomobject]
+    [Parameter(ParameterSetName='grouped_obj')]
+    $goodreads_subset,
+
+    # Console/file logging options
+    [ValidateSet('console','file','both')]
+    [string]
+    $logging = 'console'
   )
   Begin{
-    Import-Assemblies
-    if($logging){
-      try{
-        $startTime = [datetime]::Now
-        Start-GoodreadsLogging
-      }catch{
-        Write-Error "[!] Couldn't start PoSh Logging Session."
-        Get-PSCallStack
-      }
+    try{
+      $startTime = [datetime]::Now;
+      Start-GoodreadsLogging -type $logging;
+    }catch{
+      Write-ErrorLog `
+        -MessageTemplate $error_msgs.failed_logging `
+        -ErrorRecord $_
     }
-    $export = $(
-      Import-GoodreadsLibrary `
-        -goodreads_filepath $goodreads_filepath `
-        -starting_index $starting_index
+    $toProcess = $(
+      switch($PSCmdlet.ParameterSetName){
+        'default' {
+          Import-GoodreadsLibrary `
+            -goodreads_filepath $goodreads_filepath
+          break;
+        }
+        'indicies' {
+          Import-GoodreadsLibrary `
+            -goodreads_filepath $goodreads_filepath `
+            -starting_index $starting_index `
+            -stopping_index $stopping_index
+          break;
+        }
+        'grouped_obj'{
+          Import-GoodreadsLibrary `
+            -goodreads_subset $goodreads_subset
+        }
+      }
     )
-    $total_items = $export.Count
+    $errorItems = [Generic.List[BookLog]]::new()
+    $total_items = $toProcess.Count
     $processed_items = 0
   }Process{
-    foreach($booklog in $export){
-      $log_outpath = $([System.IO.Path]::Join($output_filepath,$booklog.logfilename))
+    foreach($booklog in $toProcess){
+      $log_outpath = $(
+        [Path]::Join($output_filepath,$booklog.logfilename)
+      )
       try{
-        Out-File -LiteralPath $log_outpath -InputObject $booklog.raw_log -Encoding utf8 -Force
-        $processed_items +=1
+        Out-File `
+          -LiteralPath $log_outpath `
+          -InputObject $booklog.raw_log `
+          -Encoding utf8 -Force
       }catch{
         Write-ErrorLog `
-          -MessageTemplate "[!] Couldn't build log for '{Title}'" `
-          -PropertyValues $($booklog.metadata['book-title'])
+          -MessageTemplate $error_msgs.failed_outfile `
+          -PropertyValues $booklog.metadata.bkTitle `
           -ErrorRecord $_
-        continue
+        $errorItems += $booklog;
+        continue;
       }
-      $completion = $($processed_items/$total_items)*100
+      $processed_items +=1;
+      $completion = $($processed_items/$total_items)*100;
       Write-InfoLog `
-        -MessageTemplate "[{Processed:00.00}% Processed] Wrote log for '{Title}' to '{log_outpath}'." `
+        -MessageTemplate $info_msgs.outfile `
         -PropertyValues @(
-          $completion,$booklog.metadata['book-title'],$log_outpath
+          $completion,
+          $booklog.metadata.bkTitle,
+          $log_outpath
         )
     }
   }End{
-    if($logging){
-      $stopTime = [datetime]::Now
-      $duration = $stopTime - $startTime
-      Write-InfoLog -MessageTemplate "Took {duration} to process {processed_items} item(s)." -PropertyValues @(
-        $duration.toString("mm\m\ ss\.FF\s"),
+    $stopTime = [datetime]::Now;
+    $duration = $stopTime - $startTime;
+    
+    Write-InfoLog `
+      -MessageTemplate $info_msgs.duration `
+      -PropertyValues @(
+        $duration.toString($durationfmt),
         $processed_items
       )
-      Close-Logger
-    }
+    Write-InfoLog `
+      -MessageTemplate $info_msgs.error_item_cnt `
+      -PropertyValues @(
+        $errorItems.count,
+        [System.Environment]::NewLine
+      )
+    Close-Logger;
+    return $errorItems;
   }
 }
